@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.savitarmotors.savitar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrandActivity"
+            android:label="Manufacturers"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.savitarmotors.savitar.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="SignUp"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".BrandChevroletActivity"
+            android:label="Chevrolet" />
+        <activity
+            android:name=".BrandRollRoyceActivity"
+            android:label="Roll Royce" />
+        <activity
+            android:name=".BrandBugattiActivity"
+            android:label="Bugatti" />
+        <activity
+            android:name=".BrandAudiActivity"
+            android:label="Audi" />
+        <activity
+            android:name=".BrandLamborghiniActivity"
+            android:label="Lamborghini" />
+        <activity
+            android:name=".BrandAstonMartinActivity"
+            android:label="Aston Martin" />
+        <activity
+            android:name=".BrandFordActivity"
+            android:label="Ford" />
+        <activity
+            android:name=".BrandLandRoverActivity"
+            android:label="Land Rover" />
+        <activity
+            android:name=".BrandJaguar"
+            android:label="Jaguar" />
+        <activity
+            android:name=".BrandMclaren"
+            android:label="Mclaren" />
+        <activity
+            android:name=".BrandPorsche"
+            android:label="Porsche" />
+        <activity
+            android:name=".BrandPagani"
+            android:label="Pagani" />
+        <activity
+            android:name=".BrandTesla"
+            android:label="Tesla" />
+        <activity
+            android:name=".BrandToyota"
+            android:label="Toyota" />
+        <activity
+            android:name=".BrandVolkswagen"
+            android:label="Volkswagen" />
+        <activity
+            android:name=".BrandMercedes"
+            android:label="Mercedes Benz"></activity>
+        <activity android:name=".ContactsActivity"
+            android:label="Find Us On"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

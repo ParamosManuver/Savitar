@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.savitarmotors.savitar.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/RL2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/homeImage1"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/home_image1"/>
+
+    <TextView
+        android:id="@+id/homeText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <ImageView
+        android:id="@+id/homeImage2"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/bugatti_chiron"/>
+
+    <TextView
+        android:id="@+id/homeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+
+    <ImageView
+        android:id="@+id/homeImage3"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/westword"/>
+
+    <TextView
+        android:id="@+id/homeText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:paddingTop="@dimen/activity_vertical_margin" />
+</LinearLayout>
+        </HorizontalScrollView>
+
+
+</ScrollView>

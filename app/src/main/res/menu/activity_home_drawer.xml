@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_brands"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="@string/car_brands" />
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@drawable/ic_video_library_black_24dp"
+            android:title="@string/videos_and_reviews" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/place_order" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Account" />
+    </group>
+
+    <item android:title="@string/savitar_motors"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_call_black_36dp"
+                android:title="@string/contacts" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/help" />
+        </menu>
+    </item>
+
+</menu>
